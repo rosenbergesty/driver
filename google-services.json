@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "608652425053",
+    "firebase_url": "https://guma-construction-apps.firebaseio.com",
+    "project_id": "guma-construction-apps",
+    "storage_bucket": "guma-construction-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608652425053:android:ba51a9ebfd1daa43",
+        "android_client_info": {
+          "package_name": "com.guma.dispatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608652425053-tclqhknui2mbm4s54tpqgkvtb5n86ve8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA6jJzm5WDE0pmqaHl_B9GXGLFrTOHbsk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
