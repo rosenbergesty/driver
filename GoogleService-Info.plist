@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>608652425053-ra0a7dntdde5i4e3dr4mlt9o51ud7itk.apps.googleusercontent.com</string>
+	<string>608652425053-cljo99ivpqhb97hlq3fsidil00hq42lt.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.608652425053-ra0a7dntdde5i4e3dr4mlt9o51ud7itk</string>
+	<string>com.googleusercontent.apps.608652425053-cljo99ivpqhb97hlq3fsidil00hq42lt</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDILAX0LgEWntPeXOmu66R9_qEf-Pm0ad4</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.guma.dispatcher</string>
+	<string>com.guma.driver</string>
 	<key>PROJECT_ID</key>
 	<string>guma-construction-apps</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:608652425053:ios:ba51a9ebfd1daa43</string>
+	<string>1:608652425053:ios:89dc08b43a9dd7c8</string>
 	<key>DATABASE_URL</key>
 	<string>https://guma-construction-apps.firebaseio.com</string>
 </dict>
