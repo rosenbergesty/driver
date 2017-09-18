@@ -13,3 +13,71 @@
 .statusbar-overlay {
     background: #000000;
 }
+
+
+/* Login Page */
+.login p{
+  margin-top: 50px;
+  text-align: center;
+}
+.login .form{
+  max-width: 400px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.login .form .item-content{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.login .form .item-media{
+  width: 25px;
+  margin-right: 10px;
+}
+.login .form .item-inner{
+  width: calc(100% - 35px);
+  margin: 2px 0;
+}
+.login .form input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.login .form .button-wrapper{
+  margin-top: 30px;
+}
+.login .form .item-inner{
+  border-bottom: 1px solid;
+}
+
+/* Stops */
+#stopsList{
+  margin-top: 0;
+}
+#stopsList ul{
+  height: auto !important;
+}
+
+
+/* Forms */
+.form.list-block .item-input{
+  width: 50%;
+}
+.signature.list-block .item-input{
+  width: 100%;
+}
+#signature{
+  width: ;
+}
+.preloader{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: calc(50vh - 25px);
+  left: calc(50vw - 25px);
+}
+

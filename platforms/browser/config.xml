@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.guma.dispatcher" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Guma Dispatcher</name>
+<widget id="com.guma.driver" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Guma Driver</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Guma Driver app
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+        Esty Rosenberg
     </author>
     <content src="index.html" />
     <access origin="*" />

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
 
     <!-- Required meta tags-->
     <meta charset="utf-8">
@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
     <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" type="text/css" href="css/framework7-icons.css">
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -34,9 +35,37 @@
             </div>
             <div class="pages navbar-through toolbar-through">
                 <div data-page="index" class="page">
-                    <div class="page-content">
+                    <div class="page-content login">
                         <div class="content-block">
-                            <p>Page content goes here</p>
+                            <p>Log in to continue</p>
+                            <div class="form">
+                                <div class="item-content">
+                                    <div class="item-media">
+                                        <i class="icon f7-icons">person</i>
+                                    </div>
+                                    <div class="item-inner">
+                                        <div class="item-input">
+                                            <input type="text" placeholder="email" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-content">
+                                    <div class="item-media">
+                                        <i class="icon f7-icons">unlock_fill</i>
+                                    </div>
+                                    <div class="item-inner">
+                                        <div class="item-input">
+                                            <input type="text" placeholder="password" id="password">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="button-wrapper">
+                                    <a href="#" class="button active" id="login">Submit</a>
+                                </p>
+
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -46,6 +75,8 @@
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jSignature.min.js"></script>
     <script type="text/javascript" src="js/my-app.js"></script>
 </body>
 
