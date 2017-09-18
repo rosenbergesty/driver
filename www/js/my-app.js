@@ -1,13 +1,11 @@
 // Initialize app
-var myApp = new Framework7();
+var myApp = new Framework7({
+    template7Pages: true
+});
 
-
-// If we need to use custom DOM library, let's save it to $$ variable:
 var $$ = Dom7;
 
-// Add view
 var mainView = myApp.addView('.view-main', {
-    // Because we want to use dynamic navbar, we need to enable it for this view:
     dynamicNavbar: true
 });
 
@@ -16,6 +14,8 @@ $$(document).on('deviceready', function() {
     console.log("Device is ready!");
 
     setupPush();
+
+    // set driverId
 });
 
 function setupPush(){
@@ -35,6 +35,20 @@ function setupPush(){
     });
     push.on('registration', function(data){
         console.log(data.registrationId);
+        var regId = localStorage.getItem('registrationId');
+        if(regId != null){
+            if(regId != data.registrationId){
+                var id = JSON.parse(localStorage.getItem('registrationId')[0]);
+                localStorage.setItem('registrationId', [id, data.registrationId]);
+
+                if(myApp.connection == 'online'){
+                    // save to db
+                }
+            } 
+        } else {
+            // Add to database - returns id
+            // use returned id to set localStorage
+        }
     });
     push.on('notification', function(data){
         console.log(data.message);

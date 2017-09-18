@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.guma.dispatcher;
+package com.guma.driver;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
